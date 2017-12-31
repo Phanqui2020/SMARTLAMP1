@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#30B58A">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFF"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/fireplace"
+            android:layout_gravity="center"
+            android:layout_weight="0.75"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:text="Livingroom"
+            android:layout_weight="1.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:id="@+id/swLivingroom"
+            android:paddingRight="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:background="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:src="@drawable/recipe"
+            android:layout_gravity="center"
+            android:layout_weight="0.75"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_gravity="center"
+            android:text="Kitchen"
+            android:layout_weight="1.25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+        <Switch
+            android:id="@+id/swKitchen"
+            android:paddingRight="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

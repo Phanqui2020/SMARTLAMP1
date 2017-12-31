@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#30B58A"
+    >
+
+    <ImageView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_wifi"/>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="250dp"
+        android:background="#FFF"
+        android:orientation="vertical"
+        android:layout_height="175dp">
+
+        <EditText
+            android:id="@+id/edtSsid"
+            android:hint="SSID"
+            android:drawableLeft="@drawable/signal"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="25dp"
+            android:background="#ECECEC"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+        <EditText
+            android:id="@+id/edtPass"
+            android:hint="Password"
+            android:drawableLeft="@drawable/doorkey1"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="10dp"
+            android:background="#ECECEC"
+            android:layout_width="200dp"
+            android:layout_height="40dp" />
+        <Button
+            android:id="@+id/btnConnect"
+            android:text="Connect"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:background="#FEDD12"
+            android:layout_width="155dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textColor="#FFF"
+        android:textSize="20dp"
+        android:text=""
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

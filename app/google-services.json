@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "941757973691",
+    "firebase_url": "https://lampproject-5a7e2.firebaseio.com",
+    "project_id": "lampproject-5a7e2",
+    "storage_bucket": "lampproject-5a7e2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941757973691:android:6025c1fe9f6366dd",
+        "android_client_info": {
+          "package_name": "com.gonnteam.smartlamp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941757973691-nahu92r4pkae5ksp0gll6d80nnfq8upp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gonnteam.smartlamp",
+            "certificate_hash": "9b5bd6f06cf1b45fdcf89219c52023d76a62c5ad"
+          }
+        },
+        {
+          "client_id": "941757973691-h5igosvehp73g9mnleuedg9p1ddt5jmt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gonnteam.smartlamp",
+            "certificate_hash": "f826a7537d8040d707b70265e797a68dbe15f5a1"
+          }
+        },
+        {
+          "client_id": "941757973691-ugibp9i63jpieaj1kos19q3pnjh76tf8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgQOfbzksfasuwdy-S_J2LGIOnMTL4nD8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941757973691-ugibp9i63jpieaj1kos19q3pnjh76tf8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
